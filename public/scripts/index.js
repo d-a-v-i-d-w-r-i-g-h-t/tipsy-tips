@@ -124,6 +124,11 @@ const showErrors = (errorObj) => {
 // Helper function to send a POST request to the diagnostics route (/api/diagnostics)
 const submitDiagnostics = (submissionObj) => {
   // TODO: your code here
+
+    // created a fetch() request on the front end that will
+    // send a POST request to /api/diagnostics every time a
+    // user attempts to submit an invalid form.
+
   console.info(
     '⚠️ Create the logic for the fetch POST request in scripts/index.js'
   );
