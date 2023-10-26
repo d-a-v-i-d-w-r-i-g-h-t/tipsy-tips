@@ -30,7 +30,7 @@ app.get('/feedback', (req, res) =>
 
 // GET Route for wildcard
 app.get('*', (req, res) =>
-  res.sendFile(path.join(__dirname, '/public/images/notfound.jpg'))
+  res.sendFile(path.join(__dirname, '/public/pages/404.html'))
 );
 
 app.listen(PORT, () =>
